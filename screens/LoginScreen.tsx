@@ -3,7 +3,7 @@ import { View, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
 import { useNavigation } from '@react-navigation/native';
 
-const API_URL = process.env.API_URL || 'https://example.com/api';
+const API_URL = 'https://hvacflow-api-1w43.onrender.com';
 
 const LoginScreen = () => {
   const navigation = useNavigation<any>();
