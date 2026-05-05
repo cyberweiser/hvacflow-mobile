@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "HVAC Mobile",
+    "slug": "hvac-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#ffffff" } },
+    "web": { "favicon": "./assets/favicon.png", "bundler": "metro" },
+    "plugins": ["expo-location"]
+  }
+}
