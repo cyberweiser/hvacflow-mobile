@@ -18,7 +18,10 @@
     "expo-secure-store": "^12.5.0",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
-    "react-native-signature-canvas": "^2.4.0"
+    "react-native-signature-canvas": "^2.4.0",
+    "react-native-web": "~0.19.10",
+    "react-dom": "18.2.0",
+    "@expo/metro-runtime": "~3.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5"
