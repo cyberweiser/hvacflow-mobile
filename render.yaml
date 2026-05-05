@@ -2,6 +2,6 @@ services:
   - type: web
     name: hvacflow-mobile
     env: node
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --cache ./npm-cache && npm run build
     startCommand: npm run serve
     repo: https://github.com/cyberweiser/hvacflow-mobile
