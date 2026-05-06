@@ -2,6 +2,6 @@ services:
   - type: web
     name: hvacflow-mobile
     env: node
-    buildCommand: npm install --legacy-peer-deps && npm install expo-cli@6.3.12 && npm run build
+    buildCommand: npm install && npm run build
     startCommand: npm run serve
     repo: https://github.com/cyberweiser/hvacflow-mobile
